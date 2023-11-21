@@ -6,7 +6,7 @@
 /*   By: acarrasc <acarrasc@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 11:00:52 by acarrasc          #+#    #+#             */
-/*   Updated: 2023/11/07 16:20:55 by acarrasc         ###   ########.fr       */
+/*   Updated: 2023/11/16 13:18:22 by acarrasc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,7 @@ char	*readbuf(int fd, char *storage)
 
 char	*get_next_line(int fd)
 {
-	static char	*storage = {0};
+	static char	*storage = NULL;
 	char		*line;
 
 	if (fd < 0)

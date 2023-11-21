@@ -6,12 +6,16 @@
 /*   By: acarrasc <acarrasc@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 11:55:38 by acarrasc          #+#    #+#             */
-/*   Updated: 2023/11/08 12:01:36 by acarrasc         ###   ########.fr       */
+/*   Updated: 2023/11/16 11:00:13 by acarrasc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_BONUS_H
 # define GET_NEXT_LINE_BONUS_H
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 10
+# endif
 
 # include <unistd.h>
 # include <stdio.h>
